@@ -1,7 +1,7 @@
 # wetchat-weather
 # 目录
-* [display:flex](###display:flex)
-### display:flex
+* <a href="#dis">display:flex</a>
+### <a id="dis">display:flex</a>
 意为"弹性布局",用来为盒状模型提供最大的灵活性.任何一个容器都可以指定为Flex布局.
 <br>ps:设为Flex布局以后,子元素的float,clear,vertical-align(垂直对齐方式)属性将失效.
 #### flex-direciton属性
