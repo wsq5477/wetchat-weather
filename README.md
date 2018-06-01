@@ -1,6 +1,10 @@
 # wetchat-weather
 # 目录
-* <a href="#dis">display:flex</a>
+* [display:flex](#dis)
+   * flex-direciton
+   * flex-wrap
+   * justify-content
+   * align-items
 ### <a id="dis">display:flex</a>
 意为"弹性布局",用来为盒状模型提供最大的灵活性.任何一个容器都可以指定为Flex布局.
 <br>ps:设为Flex布局以后,子元素的float,clear,vertical-align(垂直对齐方式)属性将失效.
@@ -21,5 +25,11 @@ row(默认值):主轴为水平方向,起点在左端.
 <br>center:居中
 <br>space-between:两端对齐,项目之间间隔相等
 <br>space-around:每个项目两侧的间隔相等,所以项目之间的间隔比项目与边框的间隔大一倍
-
+![]()
+#### align-items属性
+flex-start:交叉轴的起点对齐
+flex-end:交叉轴的终点对齐
+center:交叉轴的中点对齐
+baseline:项目的第一行文字的基线对齐
+stretch:如果项目未设置高度或设为auto,将占满整个容器的高度
 
