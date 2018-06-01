@@ -25,11 +25,12 @@ row(默认值):主轴为水平方向,起点在左端.
 <br>center:居中
 <br>space-between:两端对齐,项目之间间隔相等
 <br>space-around:每个项目两侧的间隔相等,所以项目之间的间隔比项目与边框的间隔大一倍
-![]()
+![](/images/justify-content.png)
 #### align-items属性
 flex-start:交叉轴的起点对齐
-flex-end:交叉轴的终点对齐
-center:交叉轴的中点对齐
-baseline:项目的第一行文字的基线对齐
-stretch:如果项目未设置高度或设为auto,将占满整个容器的高度
-
+<br>flex-end:交叉轴的终点对齐
+<br>center:交叉轴的中点对齐
+<br>baseline:项目的第一行文字的基线对齐
+<br>stretch:如果项目未设置高度或设为auto,将占满整个容器的高度
+![](/images/align-items.png)
+<br>[参考文献](https://blog.csdn.net/linda_417/article/details/51507176)
