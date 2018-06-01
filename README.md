@@ -5,6 +5,7 @@
    * flex-wrap
    * justify-content
    * align-items
+   * flex-shrink
 ### <a id="dis">display:flex</a>
 意为"弹性布局",用来为盒状模型提供最大的灵活性.任何一个容器都可以指定为Flex布局.
 <br>ps:设为Flex布局以后,子元素的float,clear,vertical-align(垂直对齐方式)属性将失效.
@@ -33,4 +34,6 @@ flex-start:交叉轴的起点对齐
 <br>baseline:项目的第一行文字的基线对齐
 <br>stretch:如果项目未设置高度或设为auto,将占满整个容器的高度
 ![](/images/align-items.png)
+#### flex-shrink属性
+当设置为0时则不按比例压缩,设置为1时进行压缩
 <br>[参考文献](https://blog.csdn.net/linda_417/article/details/51507176)
