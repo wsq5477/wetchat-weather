@@ -1,0 +1,8 @@
+<view class="future" wx:for="{{futureWeather}}">
+   <view class="futureList">
+      <view class="futureWeek">{{item.week}}</view>
+      <view class="futureDate">{{item.date}}</view>
+   </view>
+   <view class="futureTemp">{{item.temp}}</view>
+   <image class="futureWeather" src="{{item.weather}}"></image>
+</view>
